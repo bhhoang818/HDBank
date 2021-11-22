@@ -170,9 +170,15 @@
 				</div>
 				<div class="marquee"> 
 					<ul class="marquee-list">
-						<li class="marquee-list_item"><span>🔥 Miễn phí thường niên khi đăng ký thẻ VISA HDBank</span></li>
-						<li class="marquee-list_item"><span>🛍 Hoàn tiền lên đến 500K khi thanh toán qua thẻ Vietjet VISA</span></li>
-						<li class="marquee-list_item"><span>⭐️ Đăng ký hôm nay - trúng ngay táo xịn. Mở tài khoản 5 phút nhanh chóng</span></li>
+						<li class="marquee-list_item"><span>🔥 </span>
+							<p>Miễn phí thường niên khi đăng ký thẻ VISA HDBank</p>
+						</li>
+						<li class="marquee-list_item"><span>🛍️ </span>
+							<p>Hoàn tiền lên đến 500K khi thanh toán qua thẻ Vietjet VISA</p>
+						</li>
+						<li class="marquee-list_item"><span>⭐️ </span>
+							<p>Đăng ký hôm nay - trúng ngay táo xịn. Mở tài khoản 5 phút nhanh chóng</p>
+						</li>
 					</ul>
 				</div>
 				<div class="card-tool-box"> 
@@ -1004,7 +1010,7 @@
 						<div class="swiper-button-prev"> </div>
 					</div>
 					<div class="flash-sale">
-						<h2 class="title title_small">⚡️ Flash SALE</h2>
+						<h2 class="title title_small"> <span>⚡️ </span>Flash SALE</h2>
 						<div class="pro-flash">
 							<div class="swiper-container">
 								<div class="swiper-wrapper">
@@ -1078,7 +1084,7 @@
 						</div>
 					</div>
 					<div class="product-hot">
-						<h2 class="title title_small">🔥 Sản phẩm HOT</h2>
+						<h2 class="title title_small"> <span>🔥 </span>Sản phẩm HOT</h2>
 						<div class="pro-hot">
 							<div class="swiper-container">
 								<div class="swiper-wrapper">
@@ -1144,17 +1150,17 @@
 						<div class="swiper-container">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
-									<div class="slide-inner"><a class="img" href=""><img src="./images/n-1.png" alt=""></a>
+									<div class="slide-inner"><a class="img" href=""><img src="./images/n-1.jpg" alt=""></a>
 										<div class="wrap-content"> <a class="name" href="">HDBank chính thức tiếp nhận nguồn tài trợ đóng góp, ủng hộ cho Quỹ vắcxin</a><a class="detail" href="">Xem chi tiết</a></div>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="slide-inner"><a class="img" href=""><img src="./images/n-2.png" alt=""></a>
+									<div class="slide-inner"><a class="img" href=""><img src="./images/n-2.jpg" alt=""></a>
 										<div class="wrap-content"> <a class="name" href="">HDBank chính thức tiếp nhận nguồn tài trợ đóng góp, ủng hộ cho Quỹ vắcxin</a><a class="detail" href="">Xem chi tiết</a></div>
 									</div>
 								</div>
 								<div class="swiper-slide">
-									<div class="slide-inner"><a class="img" href=""><img src="./images/n-3.png" alt=""></a>
+									<div class="slide-inner"><a class="img" href=""><img src="./images/n-3.jpg" alt=""></a>
 										<div class="wrap-content"> <a class="name" href="">HDBank chính thức tiếp nhận nguồn tài trợ đóng góp, ủng hộ cho Quỹ vắcxin</a><a class="detail" href="">Xem chi tiết</a></div>
 									</div>
 								</div>
@@ -1310,20 +1316,20 @@
 				'https://code.jquery.com/ui/1.13.0/jquery-ui.js',
 				'./js/main.min.js'
 			], function(){
-					$.ajax({
-						url: "http://100.64.1.36:8280/chat/render-boxchat",
-						type: "POST",
-						async: false,
-						success: function (data) {
-							$("#content_chat").html(data);
-							setTimeout(() => {
-								$("#modal-open-box-chat").css("display", "block");
-							}, 500);
-						},
-						error: function (data) {
-							console.log(data);
-						}
-				});
+				//- 	$.ajax({
+				//- 		url: "http://100.64.1.36:8280/chat/render-boxchat",
+				//- 		type: "POST",
+				//- 		async: false,
+				//- 		success: function (data) {
+				//- 			$("#content_chat").html(data);
+				//- 			setTimeout(() => {
+				//- 				$("#modal-open-box-chat").css("display", "block");
+				//- 			}, 500);
+				//- 		},
+				//- 		error: function (data) {
+				//- 			console.log(data);
+				//- 		}
+				//- });
 			})
 		</script>
 	</body>
